@@ -134,42 +134,41 @@ const main = async () => {
                 color: "Bedrock Beige",
                 gender: "unisex",
                 description: "Our softer than soft sweats. Made to be your new everywhere, always-on essential.",
-                machineWashable: true 
+                machineWashable: false 
             },
          
             {
-                productName: "Vintage Soft Hoodie",
-                type: "Sweater",
-                sizes: [XXXS, XS, S, M, L, XL, XXL, XXXL ],
-                prices: 54.95,
-                color: "Bedrock Beige",
-                gender: "unisex",
-                description: "Our softer than soft sweats. Made to be your new everywhere, always-on essential.",
-                machineWashable: true 
+                productName: "Faux-Leather Clogs",
+                type: "Clogs",
+                sizes: [6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 11 ],
+                prices: 24.97,
+                color: "Silver Metallic",
+                gender: "women",
+                description: "Smooth faux-leather heeled clogs.Faux-wood sole and heel.",
+                machineWashable: false 
             },
 
             {
-                productName: "Vintage Soft Hoodie",
-                type: "Sweater",
-                sizes: [XXXS, XS, S, M, L, XL, XXL, XXXL ],
-                prices: 54.95,
-                color: "Bedrock Beige",
-                gender: "unisex",
-                description: "Our softer than soft sweats. Made to be your new everywhere, always-on essential.",
-                machineWashable: true 
+                productName: "Thousand Fell Womens Lace Up Sneaker",
+                type: "Sneaker",
+                sizes: [5, 5.5, 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10],
+                prices: 145.,
+                color: "White-Black",
+                gender: "women",
+                description: "Your new day-in, day-out, versatile sneakers. Comfortable, breathable, stain and odor resistant too. ",
+                machineWashable: false 
             },
 
             {
-                productName: "Vintage Soft Hoodie",
-                type: "Sweater",
-                sizes: [XXXS, XS, S, M, L, XL, XXL, XXXL ],
-                prices: 54.95,
-                color: "Bedrock Beige",
+                productName: "Go To Platform Sneaker",
+                type: "Sneaker",
+                sizes: [5.5, 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 11 ],
+                prices: 95.,
+                color: "Tan Woven",
                 gender: "unisex",
-                description: "Our softer than soft sweats. Made to be your new everywhere, always-on essential.",
-                machineWashable: true 
+                description: "Vegan, platform sneaker with woven knit detailing.Textile upper with manmade outsole.",
+                machineWashable: false 
             }
-        
         
         ]
 

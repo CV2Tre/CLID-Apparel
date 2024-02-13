@@ -172,4 +172,18 @@ const main = async () => {
         
         ]
 
+    await Clothes.insertMany(clothes)
+    console.log('Created clothes!')
+}
+    const run = async () => {
+        try {
+            await main();
+        } catch (error) {
+            console.error('Error running the seed script:', error);
+        } finally {
+            db.close();
+        }
     }
+    
+    run()
+    
